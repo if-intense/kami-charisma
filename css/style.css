@@ -336,7 +336,7 @@ footer p em {
 .concept h2.title, .award2021 h2.title {
   position: relative;
   padding: 0.25em 0;
-  font-size:2em;
+  font-size:2x`em;
 }
 .concept h2.title:after, .award2021 h2.title:after {
   content: "";
@@ -393,5 +393,9 @@ footer p em {
 .award2021 .signature h6 {
   font-size:0.8em;
   font-weight:normal;
+}
+
+.award2021 .signature p {
+  font-size:0.6em;
 }
 }
