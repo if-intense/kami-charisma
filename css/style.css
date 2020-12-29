@@ -17,6 +17,10 @@ body {
 
 }
 
+.dropdown-menu i {
+  color:#d4af37;
+}
+
 
 .nav-link {
   font-size:0.8em;
@@ -29,7 +33,7 @@ body {
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 280px 0;
+  padding: 140px 0;
 }
 
 .banner-bottom {
@@ -96,6 +100,8 @@ footer {
   width: 100%;
   height: 120px;
   background: #fff;
+  border-top:1px solid #D2D5D7;
+
 }
 
 footer p{
@@ -115,6 +121,30 @@ footer a {
 footer p em {
   font-style: italic;
 }
+
+footer .sitemap {
+  font-size:0.7em;
+  margin:10px auto 40px;
+  border-top:1px solid #D2D5D7;
+  padding-top:20px;
+}
+
+footer .sitemap table tr th {
+  padding:5px 10px;
+}
+
+footer .sitemap table {
+  text-align: center;
+}
+
+footer .sitemap ul {
+  list-style-type: none;
+}
+
+footer .device-sitemap {
+  display: none;
+}
+
 
 .intro p {
   margin-top:10px;
@@ -314,6 +344,8 @@ footer p em {
   to {transform:scale(1)}
 }
 
+
+
 /* The Close Button */
 .close {
   position: absolute;
@@ -346,11 +378,65 @@ footer p em {
   background: linear-gradient(to right, rgb(230, 90, 90), transparent);
 }
 
+.uniqueness {
+  margin:5vh 0;
+  text-align:center;
+}
+
+.uniqueness h2 {
+  text-decoration:underline;
+  font-size:0.9em;
+}
+
+
+.uniqueness p {
+  font-size:0.8em;
+}
+
+.uniqueness p span {
+  font-size:1em;
+  font-weight: bold;
+}
+
+/*#on-off {
+  display: none;
+}*/
+
+.uniqueness h5 {
+  font-size:0.9em;
+  font-weight:bold;
+  margin:2vh 0;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .banner {
+  padding:100px 0;
+  }
+
+
+  footer .sitemap {
+    display: none;
+  }
+
+  footer .device-sitemap {
+    display: block;
+    border-top:1px solid #D2D5D7;
+    padding: 20px 0 20px;
+  }
+
+  footer .device-sitemap .links {
+  font-size:0.7em;
+  text-align:center;
+  margin:5px auto;
+}
+}
 
 
 @media screen and (max-width: 576px) {
 .banner {
-  padding:105px 0;
+  padding:60px 0;
 }
 
 .banner-bottom {
@@ -398,4 +484,14 @@ footer p em {
 .award2021 .signature p {
   font-size:0.6em;
 }
+
+.uniqueness h2 {
+  text-decoration:underline;
+  font-size:0.8em;
+}
+
+.uniqueness p {
+  font-size:0.6em;
+}
+
 }
